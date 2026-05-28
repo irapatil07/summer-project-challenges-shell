@@ -1,5 +1,6 @@
 # Challenge 5 - YARA Installation and Detection Rules
-
+## Approach 
+I'm using WSL Ubuntu on windows 11 and YARA to do the tasks.
 ## Step 1 - Install YARA
 
 For Ubuntu:
@@ -209,3 +210,11 @@ kill -HUP <PID>
 - `kill` does NOT always terminate a process, is used to send signals to processes.
 - `-HUP` send a `SIGHUP` or a "hang up signal" which reloads rules without restarting the service.
 - `<PID>` is the PID of the running service in which we are checking and need to reload YARA rules.
+
+
+## What I learnt
+- What YARA is and how it detects suspicious strings or malware
+- difference between running process matching and file matching
+- how YARA rules are made
+- Regex and String matching
+- Basic Linux commands
